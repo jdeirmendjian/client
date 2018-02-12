@@ -34,6 +34,7 @@ a {
 
 
 #main {
+	font-family: 'PT Sans', sans-serif;
 	background: url(images/project_papper.png);
 	border: 1px solid #e6e6e6;
 	overflow: hidden;
@@ -61,8 +62,8 @@ a {
 a.ghost-button {
 	background: transparent;
 	border: 1px solid #ccc;	
-	text-shadow: 1px 1px 0px rgba(000, 000, 000, 1);
-	color: #ccc;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+	color: #000;
 	}
 
 a.button {
@@ -73,20 +74,12 @@ a.button {
 	background: -o-linear-gradient(30deg, rgb(242, 242, 242) 30%, rgb(204, 204, 204) 70%);
 	background: -ms-linear-gradient(30deg, rgb(242, 242, 242) 30%, rgb(204, 204, 204) 70%);
 	background: linear-gradient(120deg, rgb(242, 242, 242) 30%, rgb(204, 204, 204) 70%);
-	border: 1px solid #000;
+	border: 0px;
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 	color: #000;
 }
 
-a:visited{
-	background: rgb(239, 239, 239);
-	background: -moz-linear-gradient(30deg, rgb(239, 239, 239) 4%, rgb(211, 211, 211) 70%);
-	background: -webkit-linear-gradient(30deg, rgb(239, 239, 239) 4%, rgb(211, 211, 211) 70%);
-	background: -o-linear-gradient(30deg, rgb(239, 239, 239) 4%, rgb(211, 211, 211) 70%);
-	background: -ms-linear-gradient(30deg, rgb(239, 239, 239) 4%, rgb(211, 211, 211) 70%);
-	background: linear-gradient(120deg, rgb(239, 239, 239) 4%, rgb(211, 211, 211) 70%);
 
-}
 
 a:hover{
 	background: rgb(255, 255, 255);
