@@ -93,15 +93,16 @@ a:hover{
 
 
 .footer {
+	font-family: 'Work Sans', sans-serif;
 	overflow: hidden; 
 	margin: 0 0 60px 0;
 	left: 0;
 	bottom: 2;
 	width: 100%;
-	background-color: #2f5cb6;
+	background-color: #666699;
 	border: 1px solid #ccc;
 	color: white;
 	margin-top:-50px;
-	text-align: center;
+	text-align: left;
 
 }
